@@ -1,0 +1,21 @@
+body {
+    background-color: #FEF9E6;
+}
+
+.slick-slide img
+{
+    display: block;
+    width: 15rem;
+}
+
+#comodidades-standard,
+#comodidades-superior,
+#comodidades-varanda {
+    padding-bottom: 1rem;
+    background-color: #FEF9E6;
+}
+
+.carousel-item img {
+    height: 40rem;
+    width: 100%;
+}

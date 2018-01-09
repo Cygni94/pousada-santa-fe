@@ -1,0 +1,185 @@
+html,
+body {
+  height: 100%;
+  position: relative;
+}
+
+@font-face {
+  font-family: Sensations-and-Qualities;
+  src: url('../font/Sensations-and-Qualities.ttf');
+}
+
+@font-face {
+  font-family: brushScript;
+  src: url('../font/brushScript.ttf');
+}
+
+@font-face {
+  font-family: fontawesome;
+  src: url('../font/fontawesome-webfont.ttf')
+}
+
+@font-face {
+  font-family: slick;
+  src: url('../font/slick.ttf')
+}
+
+@font-face {
+  font-family: bradleyHand;
+  src: url('../font/bradley-hand-itc.ttf')
+}
+
+h1 {
+  font-family: 'brushScript', italic;
+  font-size: 5rem;
+  color: #634930;
+}
+
+h2 {
+  font-family: 'brushScript', italic;
+  font-size: 4rem;
+  color: #634930;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-family: 'Lora', serif;
+  font-weight: 7;
+  color: #634930;
+  text-align: center;
+}
+
+h4 {
+  font-size: 1.3rem;
+  font-family: 'Lora', serif;
+  font-weight: 7;
+  color: #634930;
+  text-align: center;
+}
+
+h6 {
+  font-size: .8rem;
+  font-family: 'Lora', serif;
+  font-style: italic;
+  font-weight: 7;
+  color: #634930;
+}
+
+p {
+  font-family: 'Lora', serif;
+}
+
+.lead {
+  font-family: Sensations-and-Qualities;
+  font-size: 3.5rem;
+  color: #634930;
+}
+
+a {
+  color: #634930;
+}
+
+.slick-prev:before,
+.slick-next:before {
+  font-size: 2rem;
+  color: #634930;
+}
+
+button a {
+  color: white;
+}
+
+button a:hover {
+  color: white;
+}
+
+hr {
+  display: block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: auto;
+  margin-right: auto;
+  border: .03rem solid #634930;
+}
+
+.btn-brown {
+  background-color: #634930;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-brown:hover {
+  background-color: #634930;
+}
+
+.btn-lightbrown {
+  background-color: #95622B;
+  color: white;
+  font-weight: 500;
+}
+
+.btn-lightbrown:hover {
+  background-color: #95622B;
+}
+
+#divider {
+  max-height: 2.5rem;
+}
+
+#go-top {
+  height: 2rem;
+}
+
+#go-top-icon {
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  display: none;
+}
+
+#logo-footer {
+  height: 4rem;
+}
+
+#facebook-icon,
+#instagram-icon,
+#tripadvisor-icon {
+  height: 1.2rem;
+  margin: 0.1rem;
+}
+
+#facebook-button,
+#instagram-button,
+#tripadvisor-button {
+  height: 2rem;
+  display: inline;
+}
+
+.arrow {
+  height: 1rem;
+}
+
+.active {
+  font-weight: bold;
+  text-decoration-color: #634930;
+}
+
+.comodidades-item {
+  height: 2.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: #95622B;
+  border-radius: 30px;
+  height: 2rem;
+  width: 2rem;
+  padding: auto;
+  background-size: 80% 80%;
+}
+
+.carousel-control-next,
+.carousel-control-prev {
+  opacity: 1;
+}

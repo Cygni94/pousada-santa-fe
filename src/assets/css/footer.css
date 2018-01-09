@@ -1,0 +1,15 @@
+@font-face {
+    font-family: Sensations-and-Qualities;
+    src: url('../font/Sensations-and-Qualities.ttf');
+  }
+
+footer.footer {
+    padding: 0;
+}
+
+footer.footer p {
+    font-family: Sensations-and-Qualities;
+    font-size: 2rem;
+    color: #634930;
+    line-height: 2.5rem;
+}

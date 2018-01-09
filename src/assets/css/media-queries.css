@@ -1,0 +1,67 @@
+@media (max-width: 767px) {
+    h1 {
+        font-size: 4rem;
+    }
+    #first-line {
+        display: none;
+    }
+    #logo {
+        top: 1rem;
+        left: 1rem;
+        position: absolute;
+        z-index: 1;
+    }
+    #navbar {
+        padding-right: 1rem;
+    }
+    #home {
+       height: 100%;
+        background-color: #343a40;
+        background: url("../img/banner_home.jpg") no-repeat center center;
+        background-size: cover;
+      }
+      #quartos {
+        margin-top: 7rem;
+    }
+    .slick-prev:before {
+        margin-left: 1rem;
+        z-index: -10;
+    }
+    .slick-next:before {
+        margin-left: -3rem;
+    }
+    .facebook-responsive {
+        padding-bottom: 75%;
+    }
+    .facebook-responsive iframe {
+        left: 0;
+        top: 0;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+    }
+    .carousel-item img {
+        height: auto;
+    }
+}
+
+@media (min-width: 768px) {
+    #logo {
+        top: -1.7rem;
+        left: 5.8rem;
+        position: absolute;
+        z-index: 1;
+    }
+    #lang-sm {
+        display: none;
+    }
+    #navbar {
+        padding-right: 5rem;
+    }
+    .slick-prev:before {
+        margin-left: -1rem;
+    }
+    .slick-next:before {
+        margin-right: 1rem;
+    }
+}

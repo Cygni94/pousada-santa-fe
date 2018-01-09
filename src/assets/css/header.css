@@ -1,0 +1,16 @@
+#navbar {
+    background-color: #FEF9E6;
+}
+
+#first-line {
+    padding-right: 1.5rem;
+}
+
+#first-line li a {
+    padding: .5rem .1rem;
+}
+
+.navbar .navbar-toggler {
+    color: #634930;
+    border-color: #634930;
+}
