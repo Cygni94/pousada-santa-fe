@@ -1,0 +1,34 @@
+{
+  "name": "Pousada-Santa-Fe",
+  "version": "1.0.2",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gulp": "gulp"
+  },
+  "author": "Cristiano Coelho",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "browser-sync": "^2.9.8",
+    "del": "^3.0.0",
+    "gulp": "^3.9.0",
+    "gulp-clean-css": "^3.9.2",
+    "gulp-htmlmin": "^4.0.0",
+    "gulp-image": "^4.2.0",
+    "gulp-postcss": "^7.0.1",
+    "gulp-rev": "^8.1.1",
+    "gulp-sass": "^3.1.0",
+    "gulp-sourcemaps": "^2.6.3",
+    "gulp-uglify": "^3.0.0",
+    "gulp-usemin": "^0.3.28",
+    "postcss-uncss": "^0.16.1",
+    "uncss": "^0.16.1"
+  },
+  "dependencies": {
+    "bootstrap": "^4.0.0-beta.3",
+    "jquery": "^1.9.1",
+    "popper.js": "^1.12.3"
+  }
+}

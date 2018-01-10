@@ -1,0 +1,75 @@
+body {
+  background-color: beige;
+}
+
+h1 {
+  color: #634930;
+}
+
+#reserva-row {
+  margin-bottom: 2rem;
+}
+
+.slick-slide img
+{
+    display: block;
+    height: 13rem;
+}
+
+#home {
+  position: relative;
+  height: 100%;
+  background-color: #343a40;
+  background: url("../img/banner_home.jpg") no-repeat center center;
+  background-size: 100% 100%;
+}
+
+#A-Pousada {
+  min-height: 100%;
+}
+
+#conheca-quartos {
+  position: relative;
+  min-height: 65%;
+  background-image: url("../img/Varanda/01.jpg");
+  background-position: 0% 32%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#callto-quartos {
+  font-size: 4rem;
+  line-height: 3.5rem;
+  font-family: Sensations-and-Qualities;
+  text-shadow: 1px 1px rgb(138, 88, 38);
+  color: #95622B;
+}
+
+#circle {
+  background-color: rgba(220, 220, 220, .6);
+  border-radius: 50%;
+  width: 20rem;
+  height: 20rem;
+  margin-top: 2.5rem;
+}
+
+#circle:hover {
+  text-shadow: 1px 1px 3px #919654;
+}
+
+#comodidades {
+  min-height: 80%;
+}
+
+.facebook-responsive {
+  overflow: hidden;
+  padding-bottom: 48%;
+  position: relative;
+  height: 0;
+}
+.facebook-responsive iframe {
+  left: 9rem;
+  height: 100%;
+  width: 80%;
+  position: absolute;
+}

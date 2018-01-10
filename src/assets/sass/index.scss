@@ -1,0 +1,14 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins";
+@import "node_modules/bootstrap/scss/reboot";
+@import "node_modules/bootstrap/scss/bootstrap";
+@import 'helpers/jquery-ui.min';
+@import 'helpers/slick';
+@import 'helpers/slick-theme';
+@import 'helpers/font-awesome.min';
+@import 'layout/index';
+@import 'layout/header';
+@import 'layout/footer';
+@import 'media-queries/media-queries';
+@import 'helpers/assets';
